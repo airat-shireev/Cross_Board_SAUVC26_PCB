@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCB3.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OBKKEHMI
-
-[Document2]
 DocumentPath=Sheet2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BXYVQFVA
 
-[Document3]
+[Document2]
 DocumentPath=Cross_Board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,8 +83,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=PCB3.PCBDwf
+[Document3]
+DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -115,70 +98,57 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=SJMZYNYJ
-
-[Document5]
-DocumentPath=PCB3_1.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XIDXRSYX
+DocumentUniqueId=TTXGOKEG
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB3.html
+DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Cross_Board\PCB3.EXTREP
+DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB3.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBL
+DocumentPath=Project Outputs for Cross_Board\PCB3.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBO
+DocumentPath=Project Outputs for Cross_Board\PCB3.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBP
+DocumentPath=Project Outputs for Cross_Board\PCB3.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBS
+DocumentPath=Project Outputs for Cross_Board\PCB3.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GM
+DocumentPath=Project Outputs for Cross_Board\PCB3.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTL
+DocumentPath=Project Outputs for Cross_Board\PCB3.GM
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTO
+DocumentPath=Project Outputs for Cross_Board\PCB3.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTP
+DocumentPath=Project Outputs for Cross_Board\PCB3.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTS
+DocumentPath=Project Outputs for Cross_Board\PCB3.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
+DocumentPath=Project Outputs for Cross_Board\PCB3.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Cross_Board\PCB3.REP
 DItemRevisionGUID=
 
