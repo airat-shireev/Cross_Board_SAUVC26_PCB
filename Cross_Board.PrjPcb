@@ -44,10 +44,16 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=01
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
+
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
 DocumentPath=Sheet2.SchDoc
@@ -67,23 +73,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BXYVQFVA
 
 [Document2]
-DocumentPath=Cross_Board.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTXGOKEG
 
-[Document4]
+[Document3]
 DocumentPath=Cross_Board_SAUVC26_assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -115,59 +104,98 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KJCUYQXB
+DocumentUniqueId=RDXOCMLY
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB1.html
+[Document4]
+DocumentPath=HydroJob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB3.html
+[Document5]
+DocumentPath=Cross_Board_SAUVC26_fabrication.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CFWUSOCU
 
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Cross_Board\PCB3.EXTREP
+[Document6]
+DocumentPath=Cross_Board.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBL
-DItemRevisionGUID=
+[ProjectVariant1]
+UniqueId=f6637328-4d9b-4385-8087-dd5c5fff68c5
+Description=01
+AllowFabrication=0
+ParameterCount=1
+VariationCount=0
+ParamVariationCount=0
 
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBO
-DItemRevisionGUID=
+[Parameter2_1]
+Name=Version
+Value=01
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBP
-DItemRevisionGUID=
+[Parameter1]
+Name=Version
+Value=01
 
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GBS
-DItemRevisionGUID=
+[Parameter2]
+Name=TItle
+Value=Плата кроссовая
 
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GM
-DItemRevisionGUID=
+[Parameter3]
+Name=Reaease_Date
+Value=11.10.2025
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTL
-DItemRevisionGUID=
+[Parameter4]
+Name=DrawnBy
+Value=Ширеев А.
 
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTO
-DItemRevisionGUID=
+[Parameter5]
+Name=Decimal_Number_Shematic
+Value=ГИДР.123456.005
 
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTP
-DItemRevisionGUID=
+[Parameter6]
+Name=Decimal_Number_PCB
+Value=ГИДР.123456.004
 
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Cross_Board\PCB3.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Cross_Board\PCB3.REP
-DItemRevisionGUID=
+[Parameter7]
+Name=ChekedBy
+Value=
 
 [Configuration1]
 Name=Sources
@@ -178,6 +206,41 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly 01
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=01
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HydroJob.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+LocalReleaseTarget=ГИДР.123456.003-01.01
+
+[Configuration4]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=HydroJob.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
