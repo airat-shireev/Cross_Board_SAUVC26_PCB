@@ -170,32 +170,32 @@ Name=Version
 Value=01
 
 [Parameter1]
-Name=Version
-Value=01
+Name=ChekedBy
+Value=
 
 [Parameter2]
-Name=TItle
-Value=Плата кроссовая
+Name=Decimal_Number_PCB
+Value=ГИДР.123456.004
 
 [Parameter3]
-Name=Reaease_Date
-Value=11.10.2025
+Name=Decimal_Number_Shematic
+Value=ГИДР.123456.005
 
 [Parameter4]
 Name=DrawnBy
 Value=Ширеев А.
 
 [Parameter5]
-Name=Decimal_Number_Shematic
-Value=ГИДР.123456.005
+Name=Reaease_Date
+Value=11.10.2025
 
 [Parameter6]
-Name=Decimal_Number_PCB
-Value=ГИДР.123456.004
+Name=TItle
+Value=Плата кроссовая
 
 [Parameter7]
-Name=ChekedBy
-Value=
+Name=Version
+Value=01
 
 [Configuration1]
 Name=Sources
