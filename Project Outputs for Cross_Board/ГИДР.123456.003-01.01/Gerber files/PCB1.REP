@@ -2,13 +2,14 @@
 FileName = PCB1.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Assembly
+Generating : Board shape
       File : PCB1.GM4
 
-    Adding Layer      : Bottom Assembly
+    Adding Layer      : Board shape
 
 
 Used DCodes :
+    D13
 *************************************************************
 
 *************************************************************
