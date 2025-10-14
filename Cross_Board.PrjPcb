@@ -169,10 +169,6 @@ ParamVariationCount=0
 Name=Version
 Value=01
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Cross_Board\Design Rule Check - PCB1.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ChekedBy
 Value=
